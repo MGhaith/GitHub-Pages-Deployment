@@ -30,7 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./gh-deployment-workflow/index.html  # Upload the index.html file
+          path: ./gh-deployment-workflow  # Upload the index.html file
 
       - name: Deploy to GitHub Pages
         id: deployment
