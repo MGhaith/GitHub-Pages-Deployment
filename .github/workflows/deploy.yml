@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "index.html"
 
 jobs:
   deploy:
@@ -20,7 +18,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .  # Upload everything for now
+          path: ./gh-deployment-workflow/index.html  # Upload the index.html file
 
       - name: Deploy to GitHub Pages
         id: deployment
