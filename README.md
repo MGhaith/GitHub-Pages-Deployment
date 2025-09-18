@@ -27,7 +27,7 @@ The workflow:
 ### Prerequisites
 
 - A GitHub account
-- A repository with a static website using [Hugo](/https://gohugo.io/), [Jekyll](https://jekyllrb.com/), or plain HTML
+- A repository with a static website using [Hugo](/https://gohugo.io/), [Jekyll](https://jekyllrb.com/), or plain HTML.
 - Repository permissions to enable [GitHub Pages](https://docs.github.com/en/pages)
 
 ### Setup
