@@ -14,6 +14,8 @@ This project provides an automated deployment pipeline that simplifies the proce
 - **Customizable Workflow**: Easily adaptable for different static site generators
 - **Automatic Builds**: Triggers deployments on push to main branch or manually via workflow dispatch
 
+Demo: https://mghaith.github.io/GitHub-Pages-Deployment/
+
 ## How It Works
 
 The workflow:
@@ -36,7 +38,7 @@ The workflow:
 
 2. **Configure your static site**
    - Place your static site files in the `gh-deployment-workflow` directory
-   - Update the configuration in `gh-deployment-workflow/hugo.toml` (for Hugo sites)
+   - Update the configuration if needed.
 
 3. **Enable GitHub Pages**
    - Go to your repository settings
